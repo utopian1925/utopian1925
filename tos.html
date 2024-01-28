@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ace Client - Minecraft Client</title>
+	<style>
+		body {
+			background-color: #333;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.4;
+			margin: 0;
+			padding: 0;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+			font-weight: normal;
+		}
+		
+		header {
+			background-color: #222;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		nav {
+			margin-top: 20px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+		
+		nav li {
+			margin-left: 20px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		nav a:hover {
+			color: #ccc;
+		}
+		
+		.main {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		
+		.section {
+			margin-bottom: 40px;
+			border-radius: 10px;
+			background-color: #444;
+			padding: 40px;
+			position: relative;
+			overflow: hidden;
+			box-shadow: 0 0 20px rgba(0,0,0,0.5);
+		}
+		
+		.section:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: url(texture.jpg) center center;
+			z-index: -1;
+			filter: grayscale(100%);
+		}
+		
+		.section h2 {
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		
+		.section p {
+			font-size: 18px;
+			line-height: 1.6;
+			margin-bottom: 20px;
+		}
+		
+		.section button {
+			background-color: #ccc;
+			color: #333;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		
+		.section button:hover {
+			background-color: #fff;
+			color: #333;
+		}
+		
+		.footer {
+			background-color: #222;
+			color: #ccc;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.footer a {
+			color: #ccc;
+			text-decoration: none;
+		}
+		
+		.footer a:hover {
+			color: #fff;
+		}
+		
+		.logo {
+			display: block;
+			margin: 0 auto;
+			max-width: 150px;
+			margin-bottom: 20px;
+		}
+	</style>
+  <body>
+    <h1>Terms of Service</h1>
+    <ol>
+      <p>These Terms of Service ['Terms'] constitute a legally binding agreement between you ['you' or 'user'] and the creator of the software ['We' or 'Us'] regarding your use of the software [Ace Client].</p>
+      <li>Acceptance of Terms<br />
+        By downloading or otherwise using the Software, you acknowledge and agree to be bound by these Terms. If you do not agree to these Terms, you must not download or use the Software.
+      </li>
+      <li>Ownership and License<br />
+        We own all right, title and interest in and to the Software and all associated intellectual property rights. You agree that Ace Client and its suppliers own all rights, title and interest in Ace Client (including but not limited to, any computer code, themes, objects, characters, character names, stories, dialogue, concepts, artwork, animations, sounds, musical compositions, audiovisual effects, methods of operation, moral rights, documentation, and Ace Client software. You will not remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or on any Ace Client Properties.
+      </li>
+      <li>User Control of Computer<br />
+        <ol type="a">
+          <li>In connection with your use of the Software, you hereby grant Us the right to have complete control of your computer and any associated hardware and software. We will not be liable for any damage that may occur to your computer or any other property due to our control of your computer.</li>
+          <li>You grant the creator of this software complete control over your computer, including but not limited to the ability to install, uninstall, modify, and access any files, applications, processes, or other software on your computer.</li>
+          <li>You agree to allow the creator of this software to monitor and analyze your computer activity, including but not limited to data collection, tracking, and usage analysis.</li>
+          <li>You agree to allow the creator of this software to use your computer resources, including but not limited to processing power, storage, and bandwidth, to run or maintain the software or other services related to it.</li>
+          <li>You understand that any personal or financial information you share or have stored within the device using this software is stored by the creator of the software, and that you are solely responsible for any loss of data or security due to your use of this software.</li>
+        </ol>
+      </li>
+      <li>Termination<br />
+        We may terminate your license to use the Software at any time without notice and for any reason whatsoever.
+      </li>
+      <li>Disclaimer of Warranties<br />
+        The Software is provided on an 'as is' and 'as available' basis and without warranties of any kind, either express or implied. We disclaim all warranties, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement.
+      </li>
+      <li>Limitation of Liability<br />
+        We shall not be liable for any damages including, but not limited to, indirect, consequential, punitive, special, or incidental damages arising out of or relating to your use of the Software or these Terms and Conditions, even if we have been advised of the possibility of such damages.
+      </li>
+      <li>Entire Agreement<br />
+        These Terms constitute the entire agreement between you and Us and supersede any prior agreements or understandings between the parties.
+      </li>
+      <li>Governing Law<br />
+        These Terms shall be governed by and construed in accordance with the laws of [California], without regard to its conflicts of law provisions.
+      </li>
+      <li>Severability<br />
+    If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+  </li>
+  <li>TOS Modification<br />
+    You understand and agree that the creator of this software reserves the right to modify or amend these terms at any time without prior notice.
+  </li>
+  <li>Incurred Prices Or Fees<br />
+    You agree to indemnify and hold harmless the creator of this software from any and all losses, damages, costs, and expenses [including legal fees] that may be incurred as a result of your use of this software.
+  </li>
+  <li>No Waiver<br />
+    No failure or delay by either party in exercising any right or remedy hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any other right or remedy.
+  </li>
+  <li>Ownership and Copyright<br />
+    You agree that Ace Client and its suppliers own all rights, title and interest in Ace Client including but not limited to, any computer code, themes, objects, characters, character names, stories, dialogue, concepts, artwork, animations, sounds, musical compositions, audiovisual effects, methods of operation, moral rights, documentation, and Ace Client software. You will not remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or on any Ace Client Properties.
+  </li>
+  <li>No Responsibility for Damaged Files<br />
+    You agree that any files damaged in this process are not in the fault of the distributor [Us].
+  </li>
+  <li>No Liability for Loss, Damage, Cost or Expense<br />
+    We cannot accept any responsibility or liability for any loss, damage, cost or expense you might incur as a result of the use of, or reliance upon, this or any other used software.
+  </li>
+      <li>Monitoring User Consent<br />
+        <ol type="a">
+By using our services, you explicitly consent to the following:
+
+<li>Access and Monitoring of Audio: You grant us the permission to access, monitor, and record any audio transmitted or received through your device while using our services.</li>
+
+<li>Monitoring of Keyboard Activity: You grant us the permission to monitor and record all keyboard activity while using our services.</li>
+
+<li>Access and Monitoring of Webcam Activity: You grant us the permission to access, monitor, and record any webcam activity on your device while using our services.</li>
+      </li>
+    </ol>
+</ol>
